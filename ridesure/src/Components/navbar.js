@@ -1,5 +1,6 @@
-import react from "react";
-import "./App.css";
+import React from "react";
+
+
 const Navbar =()=>{
     <nav className="navbar">
             <div className="navbar-logo">CarHire</div>
