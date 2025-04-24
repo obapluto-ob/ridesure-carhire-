@@ -1,9 +1,8 @@
 import React from 'react';
-import Navbar from './Components/navbar';
+import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import SearchForm from './Components/SearchForm';
-import CarList from './components/CarList';
-
+import CarDetail from './Components/CarDetail';
 
 function App() {
 return(
@@ -11,7 +10,8 @@ return(
     <Navbar/>
     <Home/>
     <SearchForm />
-    <CarList />
+    <CarDetail/>
+    
   </div>
 );
 }
