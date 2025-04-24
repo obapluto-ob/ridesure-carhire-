@@ -1,20 +1,16 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-
-const Navbar =()=>{
-    <nav className="navbar">
-            <div className="navbar-logo">CarHire</div>
-                <ul className="navbar-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Browse Cars</a></li>
-                <li><a href="#">Bookings</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        <div className="navbar-auth">
-            <button className="btn login">Login</button>
-            <button className="btn signup">Sign Up</button>
-        </div>
+const Navbar = () => {
+  return (
+    <nav>
+      <h2>RideSure</h2>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/booking">Book a Car</Link></li>
+      </ul>
     </nav>
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
